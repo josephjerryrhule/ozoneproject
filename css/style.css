@@ -207,3 +207,7 @@ footer {
     font-size: 2.5em;
     padding: 0.3rem;
 }
+
+section.services-area{
+    background: #E8E3E3;
+}
