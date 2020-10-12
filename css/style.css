@@ -59,8 +59,9 @@ header {
 }
 
 .header-content {
-    margin-top: 30px !important;
+    margin-top: 200px !important;
     margin-left: 80px;
+    padding-bottom: 200px;
 }
 
 .text-title{
@@ -162,7 +163,14 @@ hr{
     padding: 50px;
 }
 .background {
-    background: url(../img/about-hero.png) no-repeat;
+    background: url(../img/header-hero.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.background2 {
+    background: url(../img/header-hero1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
