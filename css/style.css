@@ -152,10 +152,8 @@ hr{
 }
 
 .cards2{
-    background: var(--primary-color2);
-    color: #f8f9fa;
     box-shadow: var(--box-shadow1);
-    border-radius: 10px;
+    border: 1px solid var(--primary-color2);
 }
 
 
