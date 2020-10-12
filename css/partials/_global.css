@@ -1,0 +1,55 @@
+/*Global Classes*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title-text {
+  font: normal bold 50px/72px var(--Poppins-bold);
+}
+
+p.para
+{
+  font: normal 400 26px/25px var(--poppins);
+}
+
+#para:hover {
+  color: whitesmoke;
+}
+
+.card-text {
+  text-align: inherit;
+}
+
+p.para2 {
+  font: normal 500 264px/25px var(--poppins);
+  color: #f8f9fa;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin-in {
+  border: 8px solid #fff;
+  border-radius: 53%;
+  background:#fff;
+  color: var(--primary-color);
+}
+.fa-facebook-f{
+  border: 6px solid #fff;
+  border-radius: 100%;
+  background:#fff;
+  color: var(--primary-color);
+  font-size: 1.1em;
+  border-radius: 100%;
+}
+.fa-facebook-f:hover,.fa-linkedin-in:hover{
+color:#3b5998;
+}
+.fa-instagram:hover{
+  color: var(--primary-color3);
+}
+.fa-twitter:hover{
+  color:#00aced;
+}
+
