@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: #fff;
+    background: var(--primary-color2);
     width: 100%;
 }
 #nav-item{
@@ -28,14 +28,15 @@ header {
 }
 
 .navbar {
-    padding: 30px;
+    padding: 5px;
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
     box-shadow: var(--box-shadow);
 }
 
 .navbar-brand img {
-    width: 90px;
+    width: 50px;
+    margin-left: 300px;
 }
 
 .nav-item .nav-link {
@@ -167,11 +168,13 @@ hr{
     padding: 50px;
 }
 .background {
-    background: url(../img/header-hero.jpg) no-repeat;
+    background: black;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 .background2 {
     background: url(../img/header-hero1.jpg) no-repeat;
@@ -187,9 +190,10 @@ hr{
 }
 
 .overlay-color {
-    background: rgba(34, 34, 34, 0.685);
-    padding: 50px;
+    background: black;
     color: #fff;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 .overlay-color h1 {
@@ -218,4 +222,15 @@ section.services-area-service{
 }
 .closing-area{
     background: #E8E3E3;
+}
+section.slide-1{
+    background: var(--primary-color2);
+}
+.arrow{
+    background: black;
+    margin-top: -2%;
+    border-radius: 48%;
+    width: 5%;
+    padding: 3px;
+    font-size: 50px;
 }
