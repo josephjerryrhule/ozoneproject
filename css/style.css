@@ -235,9 +235,6 @@ section.services-area-service{
     background-color: var(--primary-color);
 }
 .slide-1{
-    background: var(--primary-color);
-}
-.slide-2{
     background: var(--primary-color3);
 }
 .arrow{
