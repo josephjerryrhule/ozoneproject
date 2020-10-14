@@ -35,7 +35,7 @@ body {
 
 .navbar-brand img {
     width: 50px;
-    margin-left: 300px;
+    margin-left: 190px;
 }
 
 .nav-item .nav-link {
@@ -211,6 +211,9 @@ hr{
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+.background6 {
+    background: #fff;  
+}
 .overlay-color {
     background: black;
     color: #fff;
@@ -258,6 +261,26 @@ section.services-area-service{
 }
 .arrow1{
     background: var(--primary-color2);
+    color: white;
+    margin-top: -1.5%;
+    border-radius: 48%;
+    width: 5%;
+    margin-left: 48%;
+    padding: 3px;
+    font-size: 30px;
+}
+.arrow2{
+    background: var(--primary-color);
+    color: white;
+    margin-top: -1.5%;
+    border-radius: 48%;
+    width: 5%;
+    margin-left: 48%;
+    padding: 3px;
+    font-size: 30px;
+}
+.arrow3{
+    background: var(--primary-color3);
     color: white;
     margin-top: -1.5%;
     border-radius: 48%;
