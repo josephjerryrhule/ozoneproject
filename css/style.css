@@ -232,16 +232,13 @@ section.services-area-service{
     background: #E8E3E3;
 }
 .slide{
-    width: 100%;
     background-color: var(--primary-color);
 }
 .slide-1{
     background: var(--primary-color);
-    width: 100%;   
 }
 .slide-2{
     background: var(--primary-color3);
-    width: 100%;   
 }
 .arrow{
     background: black;
