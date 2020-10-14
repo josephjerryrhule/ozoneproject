@@ -9,13 +9,12 @@
 @import url(./partials/_global.css);
 
 body {
-    background: #fff;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
 
-header {
+.header_area {
     background: var(--primary-color2);
     width: 100%;
 }
@@ -177,28 +176,19 @@ hr{
     border-bottom-right-radius: 10%;
 }
 .background2 {
-    background: url(../img/header-hero1.jpg) no-repeat;
+    background: var(--primary-color2);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    height: 80%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
-.background3 {
-    background: url(../img/services-hero.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .overlay-color {
     background: black;
     color: #fff;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
-}
-
-.overlay-color h1 {
-    font-size: 75px;
-    font-weight: bold;
 }
 
 .overlay-color p {
@@ -223,11 +213,26 @@ section.services-area-service{
 .closing-area{
     background: #E8E3E3;
 }
+.slide{
+    width: 100%;
+    height: 100%;
+}
 section.slide-1{
-    background: var(--primary-color2);
+    background: var(--primary-color);
+    
 }
 .arrow{
     background: black;
+    margin-top: -2%;
+    color: white;
+    border-radius: 48%;
+    width: 5%;
+    margin-left: 48%;
+    padding: 3px;
+    font-size: 50px;
+}
+.arrow1{
+    background: var(--primary-color2);
     margin-top: -2%;
     border-radius: 48%;
     width: 5%;
